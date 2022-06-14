@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /**
- * @author 0xCaleb (follow me on twitter)
+ * @author 0xCaleb
  * @dev Forwarder contract to facilitate metatransactions on Ethereum L1. Intended to be used for Vennity NFT
  * so that they can pay gas fees on their frontend application. Allows for generic calls to any contract without
  * any incentive for the caller to pay the user's gas fees. For Vennity's case, we have a web2-native fiat subscription plan.
